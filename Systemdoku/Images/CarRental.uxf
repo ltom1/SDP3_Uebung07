@@ -98,7 +98,7 @@ _- mName: std::string_
 + GetPrice(): size_t = 0
 + Print(std::ostream): void
 
-bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>891</x><y>738</y><w>135</w><h>63</h></coordinates><panel_attributes>CompactCarBase
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>891</x><y>738</y><w>135</w><h>63</h></coordinates><panel_attributes>SUVCarBase
 -
 _- mPrice: size_t_
 -
