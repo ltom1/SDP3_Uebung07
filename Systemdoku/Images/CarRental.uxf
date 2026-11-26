@@ -11,10 +11,10 @@
 + Reserve(ICarComponent): void
 + Back(ICarComponent): void
 
-bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>216</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>207</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
 m2=*
-- mCars</panel_attributes><additional_attributes>11;20;160;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>918</x><y>387</y><w>243</w><h>171</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
+- mAvailable</panel_attributes><additional_attributes>11;20;160;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>918</x><y>387</y><w>243</w><h>171</h></coordinates><panel_attributes>&lt;&lt;abstract&gt;&gt;
 CarBase
 -
 - mManufacturer: std::string
@@ -103,4 +103,7 @@ bg=green</panel_attributes><additional_attributes></additional_attributes></elem
 _- mPrice: size_t_
 -
 + GetPrice(): size_t
-bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>945</x><y>594</y><w>27</w><h>162</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>450</y><w>225</w><h>27</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element></diagram>
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>945</x><y>594</y><w>27</w><h>162</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>396</x><y>450</y><w>225</w><h>27</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;230;10</additional_attributes></element><element><id>Relation</id><coordinates><x>621</x><y>225</y><w>162</w><h>45</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=*
+- mReserved</panel_attributes><additional_attributes>11;20;160;20</additional_attributes></element></diagram>
