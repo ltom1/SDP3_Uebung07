@@ -20,7 +20,7 @@ CarBase
 - mManufacturer: std::string
 - mType: std::string
 -
-+ Car(manufacturer: std´::string, type: std::string) 
++ Car(manufacturer: std::string, type: std::string) 
 
 + GetManufacturer(): std::string
 + GetType(): std::string
