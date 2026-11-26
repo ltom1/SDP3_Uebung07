@@ -14,6 +14,9 @@ public:
 	/// @brief std::unique_ptr of this class.
 	using UPtr = std::unique_ptr<ICarComponent>;
 
+	/// @brief Raw const pointer of this class.
+	using RPtr = ICarComponent const*;
+
 	/// @brief Gets the total price for this car.
 	/// @returns The price of this component and all subcomponents.
 	virtual size_t GetPrice() const = 0;
