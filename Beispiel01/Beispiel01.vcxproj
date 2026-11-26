@@ -102,10 +102,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ACUnit.cpp" />
+    <ClCompile Include="CarBase.cpp" />
+    <ClCompile Include="CarRental.cpp" />
+    <ClCompile Include="CompactCarBase.cpp" />
+    <ClCompile Include="CruiseControl.cpp" />
+    <ClCompile Include="Feature.cpp" />
+    <ClCompile Include="MatrixLED.cpp" />
+    <ClCompile Include="MidSizeCarBase.cpp" />
+    <ClCompile Include="Navigation.cpp" />
+    <ClCompile Include="PremiumCarBase.cpp" />
+    <ClCompile Include="SUVCarBase.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACUnit.h" />
+    <ClInclude Include="CarBase.h" />
+    <ClInclude Include="CarRental.h" />
+    <ClInclude Include="CompactCarBase.h" />
+    <ClInclude Include="CruiseControl.h" />
+    <ClInclude Include="Feature.h" />
+    <ClInclude Include="ICarComponent.h" />
+    <ClInclude Include="MatrixLED.h" />
+    <ClInclude Include="MidSizeCarBase.h" />
+    <ClInclude Include="Navigation.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="PremiumCarBase.h" />
+    <ClInclude Include="SUVCarBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

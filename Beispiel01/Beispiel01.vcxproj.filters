@@ -2,6 +2,39 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="ACUnit.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="CarBase.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRental.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="CompactCarBase.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="CruiseControl.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixLED.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="MidSizeCarBase.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="PremiumCarBase.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="SUVCarBase.cpp">
+      <Filter>Implementation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Implementation">
@@ -13,5 +46,49 @@
     <Filter Include="Resource Files">
       <UniqueIdentifier>{fcfa5b66-c41f-4609-a3d9-5cf7e0cd6f94}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICarComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarRental.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixLED.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ACUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CruiseControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompactCarBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SUVCarBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MidSizeCarBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PremiumCarBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
